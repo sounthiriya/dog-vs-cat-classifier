@@ -50,7 +50,7 @@ Uploaded image preview
 
 ✅ Example Output
 Prediction: Dog (Confidence: 0.87)
-
+![](./output.png)
 📖 Notes
 
 The model was trained separately in Google Colab and saved as my_model.keras.
