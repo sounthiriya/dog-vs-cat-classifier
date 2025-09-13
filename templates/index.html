@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dog vs Cat Classifier</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <h2>🐶🐱 Dog vs Cat Classifier</h2>
+    <form action="/predict" enctype="multipart/form-data" method="post">
+        <input type="file" name="file" accept="image/*" required>
+        <button type="submit">Upload & Predict</button>
+    </form>
+
+    {% if result %}
+        <h3>{{ result }}</h3>
+        {% if img_path %}
+            <img src="{{ img_path }}" alt="Uploaded Image" width="200">
+        {% endif %}
+    {% endif %}
+</body>
+</html>

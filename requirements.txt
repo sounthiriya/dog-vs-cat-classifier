@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+tensorflow
+pillow
+jinja2
+python-multipart
+numpy 
+scikit-learn
+Scikit-image
+joblib
+tensorflow 
+pillow
+numpy
